@@ -1,19 +1,23 @@
 # Capa
 
-- **Título do Projeto**: [Título claro e conciso que reflete a essência do produto ou ferramenta].
+- **Título do Projeto**: Arquitetura de Sistema ChatBot com IA Comportamental para Agendamento Dinâmico e Automação Administrativa de Autônomos.
 - **Nome do Estudante**: Gustavo Kauan Storch.
 - **Curso**: Engenharia de Software.
-- **Data de Entrega**: [Data].
+- **Data de Entrega**: 19/05/2025 (Última revisão).
 
 # Resumo
 
-Breve descrição do conteúdo do documento, incluindo o propósito do projeto e os principais pontos de discussão.
+  Este projeto tem como objetivo desenvolver uma solução tecnológica para profissionar autônomos que enfrentam desafios na gestão de suas atividades administrativas. A proposta é criar um assistente virtual inteligente capaz de automaticar tarefas como agendamento de consultas e cobranças de clientes. Com a implementação dessa ferramenta, busca-se aliviar a carga administrativa dos profissionais, permitindo-ler dedicar mais tempo no atendimento aos seus clientes e no aperfeiçoamento de seus serviços.
+
+  Também será desenvolvido um sistema web complementar, por meio do qual o profissional poderá configurar parâmetros de funcionamento para a IA (como horário de atendimento, valores, atividades do profissional) e visualizar relatórios analíticos para acompanhar o número de atendimentos, taxas de confirmação e padrões de agendamentos.
+
+  A solução será projetada para ser simples, eficiente e intuitiva, otimizando o tempo e os recursos dos profissionais autônomo, ao mesmo tempo em que melhora a experiência do cliente.
 
 ## 1. Introdução
 
-- **Contexto**: Breve descrição do contexto que envolve o projeto.
-- **Justificativa**: Explicação da relevância do projeto para o campo da engenharia de software.
-- **Objetivos**: Descrição do objetivo principal do projeto e de quaisquer objetivos secundários.
+A crescente demanda por serviços de saúde e bem estar por exemplo, tem impulsionado o aumento do número de profissionais autônomos, como massagistas, fisioterapeutas, entre outros prestadores de serviços. Esses profisisonais, apenas de altamente especializados em suas áreas, frequentemente enfrentam desafios relacionados à gestão de suas atividades administrativas, como agendamento de consultas, cobrança de clientes e organização de suas agendas. Esse cenário pode resultar em perda de tempo, erros e frustações, impactando tanto a produtividade dos profissionais quanto a satisfação dos clientes. Com o avanço da tecnologia e a popularização dos assistentes virtuais, surge a oportunidade de integrar soluções que ajudem esses profissionais a automatizar suas tarefas administrativas, proporcionando maior eficiência e liberdade para que possam focar no atendimento ao cliente.
+
+Este projeto é relevante para o campo da engenharia de software, pois propõe uma solução prática para um problema que afeta uma grande parte dos profissionais autônomos. A automação de processos administrativos, como o agendamento e a cobrança de clientes, é uma necessidade crescente, especialmente para aqueles que operam de forma independente ou em pequenas equipes. A proposta de desenvolver um assistente artificial, onde soluções tecnológicas acessíveis e eficientes são cada vez mais essenciais para otimizar a operação de serviços. Além disso, a integração de inteligência artificial e automação pode trazer avanços significativos em termos de usabilidade, adaptabilidade e melhoria da experiência tanto para prestadores de serviço quanto para seus clientes.
 
 ## 2. Descrição do Projeto
 
