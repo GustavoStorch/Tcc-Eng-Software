@@ -30,9 +30,51 @@
 
 ## 2. Descrição do Projeto
 
-- **Tema do Projeto**: Detalhes do tema, incluindo o produto ou ferramenta a ser desenvolvido.
-- **Problemas a Resolver**: Lista dos principais problemas que o projeto visa resolver.
-- **Limitações**: Delimitação dos problemas que o projeto não abordará.
+  Esse projeto tem como objetivo o desenvolvimento de um assistente virtual inteligente voltado para profissionais autônomos na área de saúde e bem estar com foco atual em psicólogos. A ferramenta proposta visa automatizar tarefas administrativas, como agendamento de consultas e cobrança de clientes, utilizando inteligência artificial para otimizar esses processos. O produto será um assistente virtual simples de usar, que permitirá a integração da automação diretamente no fluxo de trabalho diário dos profissionais. As funcionalidades incluirão envio de lembretes automáticos e inteligentes, controle de agenda e interações personalizadas com os clientes.
+
+  O assistente será utilizado via Telegram, e terá também um site onde os profissionais possam acessar e configurar o assistente conforme necessidade, a combinação dos dois fará com que os profissionais possam gerenciar seus compromissos de qualquer lugar e a qualquer momento.
+
+  Haverá o envio automático e inteligente de lembretes, a ideia principal é usar um agente (IA) responsável por estudar o comportamento de cada cliente. Por exemplo, se o cliente Gustavo costuma agendar suas consultas sempre nas terças-feiras à tarde, entre 15h e 17h, quando ele entrar em contato para um novo agendamento, o assistente virtual sugerirá automaticamente horários semelhantes aos padrões anteriores. Para clientes como João, que frequentemente remarca ou cancela suas consultas, o sistema enviará lembretes antecipados para confirmar a consulta, ajudando a evitar alterações de última hora. 
+
+  Além disso, o sistema irá considerar o fuso horário de cada cliente e do profissional. Ao realizar um agendamento, o paciente poderá informar seu fuso horário, ou o sistema poderá determinar automaticamente o horário com base no local informado. O assistente virtual irá então sugerir horários compatíveis com a disponibilidade do profissional e também dentro do limite de horário do paciente.
+
+  Por exemplo, se o paciente Gustavo mora nos Estados Unidos e deseja agendar uma consulta às 14h (horário local dele), o assistente irá sugerir automaticamente o horário equivalente para a psicóloga em Santa Catarina, ajustando a diferença de fuso horário entre os dois. Isso garante que ambos, paciente e profissional, vejam e entendam o horário correto do agendamento, evitando confusões de horário.
+
+## 2.1. **Problemas a Resolver**
+
+- **Gestão de agenda manual:** Dificuldade dos profissionais autônomos em gerenciar seus compromissos, resultando em conflitos de horários e perda de consultas.
+- **Falta de lembretes automáticos:** A ausência de notificações pode levar a atrasos e faltas, prejudicando tanto o profissional quanto o cliente.
+- **Carga administrativa excessiva:** Tempo excessivo gasto com tarefas burocráticas reduz a disponibilidade para o atendimento ao cliente.
+- **Comunicação ineficiente:** Agendamentos, cancelamentos e mudanças ainda são feitos de forma manual, aumentando a chance de erros e retrabalho.
+- **Agendamento entre fusos horários diferentes:** Agendamentos serão possíveis serem feitos sem a falha de comunicação por conta de fusos horários, esses tipos de problemas podem ser mais comuns em consultas online.
+
+## 2.2. **O que será feito**
+
+- **Chatbot via Telegram:** Assistente virtual para comunicação e agendamento.
+- **Integração com calendários:** Sincronização com Google Calendar para organização eficiente.
+- **Banco de dados (PostgreSQL):** Armazenamento seguro de informações sobre clientes e agendamentos.
+- **Notificações automáticas:** Lembretes para pacientes e alertas para os profissionais.
+- **Configuração personalizada:** Interface para ajustar horários, valores e métodos de cobrança.
+- **Tela de login**
+- **Tela para configuração de horários**
+- **Tela para configurações de valores**
+- **Tela para configurações de mensagens e demais permissões de integrações.**
+- **Sugestões inteligentes de horários:** O assistente analisará padrões e comportamentos de agendamento dos clientes para facilitar novas marcações, levando em conta as diferenças de fuso horário entre o cliente e o profissional.
+- **Linguagem de programação:** Python (pela versatilidade e suporte a IA) e react para frontend referente às telas de configurações do sistema.
+- **Hospedagem:** Solução em nuvem (Heroku ou AWS).
+
+## 2.3. **Limitações**
+
+- **Integração com WhatsApp:** A API do Whatsapp é paga, como o projeto não possui fim lucrativos ainda, não será realizado esta integração.
+- **Sistema próprio de pagamentos** (integrações com plataformas existentes podem ser avaliadas posteriormente).
+- **Integração com plataformas de pagamento ainda não implementada na fase inicial.**
+- **Software de gestão completo (ERP):** O foco é a automação de tarefas específicas.
+- **Suporte para grandes empresas ou múltiplos profissionais:** voltado para autônomos e pequenos negócios.
+- **Aplicativo móvel nativo:** acesso via Telegram web ou aplicativo Telegram, já a parte de configurações do profissional será por meio do site web.
+- **Funcionalidades além do escopo administrativo** (ex.: controle de estoque ou relatórios financeiros detalhados).
+- **Escopo focado em saúde e bem estar:** Outras categorias podem ser consideradas no futuro.
+- **Sem integração com sistemas complexos de gestão:** Apenas funções básicas de agendamento, controle e lembretes.
+- **Sem automação completa de todas as tarefas administrativas:** O foco inicial será em agendamento, lembretes e cobrança.
 
 ## 3. Especificação Técnica
 
