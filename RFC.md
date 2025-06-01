@@ -3,7 +3,7 @@
 - **Título do Projeto**: Arquitetura de um Assistente Virtual Inteligente: Aplicação de IA Comportamental no Agendamento e na Automação Administrativa para Profissionais Autônomos na área de saúde e bem-estar.
 - **Nome do Estudante**: Gustavo Kauan Storch.
 - **Curso**: Engenharia de Software.
-- **Data de Entrega**: 24/05/2025 (Última revisão).
+- **Data de Entrega**: 01/06/2025 (Última revisão).
 
 # Resumo
 
