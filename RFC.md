@@ -78,12 +78,49 @@
 
 ## 3. Especificação Técnica
 
-Descrição detalhada da proposta, incluindo requisitos de software, protocolos, algoritmos, procedimentos, formatos de dados, etc.
+  A partir dos objetivos e funcionalidades apresentados na seção 2 referentes a descrição do projeto, se faz necessário o detalhamento de forma técnica da solução, como ela será estruturada e implementada. Será especificado os requisitos de softwares, tecnologias envolvidas, protocolos de comunicação e os algoritmos que serão utilizados para integração da inteligência artificial, os procedimentos operacionais e os formatos de dados adotados. Essa especificação técnica visa garantir clareza no desenvolvimento e a correta integração entre os módulos do sistema.
 
 ### 3.1. Requisitos de Software
-- Apresentar os requisitos do tema proposto.
-- **Lista de Requisitos:** Apresentar uma lista contendo os Requisitos Funcionais (RF) e Não-Funcionais (RNF).
-- **Representação dos Requisitos:** Representar os RFs por meio de um Diagrama de Casos de Uso (UML).
+- **Requisitos funcionais:**
+  - **RF01** – Chatbot via Telegram para interação com pacientes e gerenciamento de agendamentos.
+  -	**RF02** – Integração com Google Calendar para sincronização de consultas.
+  -	**RF03** – Envios de lembretes automáticos personalizados para pacientes e profissionais.
+  -	**RF04** – Suporte a agendamento inteligente com análise de padrões de comportamento dos pacientes.
+  - **RF05** – Gerenciamento de fusos horários entre profissionais e pacientes
+  - **RF06** – Sistema web para configuração:
+    -	Tela de login.
+    - Tela de configuração de horários de atendimento.
+    - Tela para definição de valores.
+    - Tela de personalização de mensagens.
+    - Tela de Cadastro de usuário.
+    - Tela de Cadastro de Clínica.
+    - Tela de Cadastro de Profissional.
+    - Tela de Cadastro de Clientes.
+    - Tela de consultas.
+    - Tela de agenda.
+   
+- **Requisitos não funcionais:**
+  - **RNF01** – Interface web responsiva desenvolvida em React.
+  - **RNF02** – Backend desenvolvido em Python utilizando o framework Flask.
+  - **RNF03** – Hospedagem em nuvem (Heroku, AWS).
+  - **RNF04** – Banco de dados relacional PostgreSQL, com acesso seguro com criptografia de pontas.
+  - **RNF05** – Suporte a múltiplos fusos horários.
+  - **RNF06** – Disponibilidade mínima de 99% (considerando hospedagem na nuvem).
+  - **RNF07** – API RESTful para comunicação entre frontend, backend e bot do Telegram.
+
+- **Diagramas de Requisitos Funcionais:**
+  
+![RF01](https://github.com/user-attachments/assets/357d454f-024a-442c-be9f-721aac671c45)
+
+![RF02](https://github.com/user-attachments/assets/6da08aca-dcef-41b0-bfc4-5d01ab0235a2)
+
+![RF03](https://github.com/user-attachments/assets/dd3b32f4-daed-4b7a-973a-94c3c3249e9d)
+
+![RF04](https://github.com/user-attachments/assets/68089b85-bca4-43ac-8792-a593e85237ac)
+
+![RF05](https://github.com/user-attachments/assets/4a103379-0bab-4aa8-afb9-75b4729c2340)
+
+![RF06](https://github.com/user-attachments/assets/82a663eb-b6ac-4d2f-8b90-23fb89cb3fb8)
 
 ### 3.2. Considerações de Design
 
