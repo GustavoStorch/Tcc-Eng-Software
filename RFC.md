@@ -273,6 +273,8 @@ Fonte: Elaborado pelo Autor, 2025.
 
 ## 4. Próximos Passos
 
+  A próxima fase do projeto será voltada para o desenvolvimento, iniciando com a criação do banco de dados postgresql, logo após realizando o desenvolvimento da API que fará parte do website e da integração com o Agente de IA. Com esses dois tópicos prontos, é possível iniciar a integração das partes principais do sistema, Telegram, N8N, Google Gemini, Google Calendar, API e banco de dados, seguido da criação da IA e treinamento da mesma para prever os melhores horários de agendamentos de cada paciente. Com tudo isso finalizado será criado o website onde será possível os profissionais estarem configurando todas as informações que a inteligencia artificial presisará para trabalhar perfeitamente.
+
 Descrição dos passos seguintes após a conclusão do documento, com uma visão geral do cronograma para Portfólio I e II.
 
 ## 5. Referências
