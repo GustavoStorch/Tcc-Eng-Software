@@ -292,6 +292,12 @@ Descrição dos passos seguintes após a conclusão do documento, com uma visão
 ## 7. Avaliações de Professores
 
 Adicionar três páginas no final do RFC para que os Professores escolhidos possam fazer suas considerações e assinatura:
-- Considerações Professor/a:
-- Considerações Professor/a:
-- Considerações Professor/a:
+
+- Considerações Professor/a: **Vanessa Gil (22/04/2025)**
+  - Configuração de estilo de escrita de acordo com o cliente que utilizará a ferramenta. Ex: estilo formal, informal, etc...
+  - Definição de fuso horário com ajuda do DDD e DDI e pedir confirmação para o usuário.
+    
+- Considerações Professor/a: **Emanuel Ferreira da Silva (06/05/2025)**
+
+- Considerações Professor/a: **Andrei Corniel**
+  - Dica para implementar o fuso horário. Quanto vai integrar a IA? Por exemplo Gmail e Outlook°
